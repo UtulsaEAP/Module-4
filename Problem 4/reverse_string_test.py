@@ -2,7 +2,7 @@
 Test cases for the reverse_string module.
 '''
 import reverse_string as reverse_string
-ERROR_MSG = "Validate the schema in the README"
+ERROR_MSG = "Each string should be reversed and printed on an individual line. This includes special characters and capitilizaiton. Make sure you do not include the stop indicator [done, d,Done]."
 
 def test_four_one(monkeypatch,capsys):
 
