@@ -2,7 +2,7 @@
 Test cases for the brute_eq module.
 '''
 import brute_eq as brute_eq
-ERROR_MSG = "Validate the schema in the README"
+ERROR_MSG = "Make sure your output is of the form: x = # , y = #. If there is no solution, indicate There is no solution"
 
 def test_five_one(monkeypatch,capsys):
 
