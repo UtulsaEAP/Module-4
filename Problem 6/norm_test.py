@@ -2,7 +2,7 @@
 Test cases for the norm module.
 '''
 import norm as norm
-ERROR_MSG = "Validate the schema in the README"
+ERROR_MSG = "Ensure that each number is printed with 2 decimal points."
 
 def test_six_one(monkeypatch,capsys):
 
